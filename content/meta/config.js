@@ -17,7 +17,7 @@ module.exports = {
   authorYoutube: "",
 
   /* header text */
-  headerTitle: "ben benedyk",
+  headerTitle: "Ben Benedyk",
   headerSubTitle: "",
 
   /* manifest.json */

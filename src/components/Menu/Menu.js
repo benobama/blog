@@ -13,12 +13,12 @@ class Menu extends React.Component {
     this.itemList = React.createRef();
 
     this.items = [
-      { to: "/", label: "Home", icon: FaHome },
+      { to: "/", label: "Start", icon: FaHome },
       //{ to: "/tags/", label: "Tags", icon: FaTag },
       //{ to: "/search/", label: "Search", icon: FaSearch },
-      { to: "/follow/", label: "Follow", icon: FaRss },
-      { to: "/contact/", label: "Contact", icon: FaEnvelope },
-      { to: "/about/", label: "About", icon: FaUser }
+      { to: "/follow/", label: "Obserwuj", icon: FaRss },
+      { to: "/contact/", label: "Kontakt", icon: FaEnvelope },
+      { to: "/about/", label: "O mnie", icon: FaUser }
     ];
 
     this.renderedItems = []; // will contain references to rendered DOM elements of menu
