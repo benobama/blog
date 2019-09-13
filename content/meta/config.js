@@ -1,11 +1,11 @@
 module.exports = {
-  siteTitle: "Atte Juvonen", // <title>
-  shortSiteTitle: "Atte Juvonen", // <title> ending for posts and pages
-  siteDescription: "Atte Juvonen",
-  siteUrl: "https://www.attejuvonen.fi",
+  siteTitle: "Rycerz Codzienności", // <title>
+  shortSiteTitle: "rycerzcodzienności", // <title> ending for posts and pages
+  siteDescription: "rycerz codzienności",
+  siteUrl: "https://www.rycerz-codziennosci.netlify.com",
   // pathPrefix: "",
   siteImage: "preview.jpg",
-  siteLanguage: "en",
+  siteLanguage: "pl",
 
   /* author */
   authorName: "Atte Juvonen",
