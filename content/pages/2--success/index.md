@@ -1,5 +1,5 @@
 ---
-title: Delivered
+title: Dostarczono!
 ---
 
 Dzięki za wiadomość! <br />
