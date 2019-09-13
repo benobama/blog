@@ -1,5 +1,5 @@
 ---
-title: About
+title: O mnie
 ---
 <re-img src="author.jpg" hovereffect=true></re-img>
 
