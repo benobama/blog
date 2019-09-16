@@ -36,6 +36,7 @@ const Meta = props => {
       <style jsx>{`
         .meta {
           display: flex;
+          text-align:justify;
           flex-flow: row wrap;
           font-size: 0.8em;
           margin: ${theme.space.m} 0;

@@ -14,7 +14,7 @@ const Article = props => {
           padding: ${theme.space.inset.default};
           padding-bottom: 0px !important;
           margin: 0 auto;
-          justify-content: left;
+          text-align:justify;
         }
         @from-width tablet {
           .article {

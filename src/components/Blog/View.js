@@ -31,7 +31,7 @@ class View extends React.Component {
             {/* Optional Hero section on first page. */}
             {pageContext.currentPage == 1 && !theme.hero.hide && (
                 <Hero theme={theme} />
-            )} 
+            )}
 
             {/* Blog posts with infinite scroll. */}
             <InfiniteScroll
@@ -51,9 +51,9 @@ class View extends React.Component {
                 </div>
             )}
 
-            {/* Fallback to Pagination for non JS users. */} 
+            {/* Fallback to Pagination for non JS users. */}
             <noscript>
-                <style> 
+                <style>
                 {`.spinner { display: none !important; }`}
                 </style>
                 <Pagination pageContext={pageContext} theme={theme}/>
@@ -78,9 +78,9 @@ class View extends React.Component {
                     fill: ${theme.color.brand.primaryLight};
                     animation: spinner 3s linear infinite;
                 }
-                
+
                 }
-                        
+
             `}</style>
 
         </React.Fragment>
