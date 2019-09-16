@@ -1,6 +1,6 @@
 import React from "react"
 import theme from "../../theme/theme.yaml";
-import { FaGithub, FaStackOverflow, FaLinkedin, FaYoutube } from 'react-icons/fa'
+import { FaGithub, FaStackOverflow, FaLinkedin, FaYoutube, FaFacebook } from 'react-icons/fa'
 import config from "../../../content/meta/config";
 import Codeforces from "../../images/svg-icons/codeforces.svg";
 //import Unsplash from "../../images/svg-icons/unsplash.svg";
