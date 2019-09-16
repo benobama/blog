@@ -12,7 +12,6 @@ const NotFoundPage = props => {
       <header>
         <Headline title="404" theme={theme} />
       </header>
-      <img src=images/gothic.jpg allign=center>
       <p>Nic tu nie ma, niczego tu nie znajdziesz.</p>
     </Article>
   );
