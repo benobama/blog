@@ -11,6 +11,7 @@ const WebPresenceIcons = () => {
             <div className="icons">
                 <a href={config.authorGithub} target="_blank"><FaGithub/></a>
                 <a href={config.authorYoutube} target="_blank"><FaYoutube/></a>
+                <a href={config.authorFacebook} target="blank"><FaFacebook></a>
                 {/* <a href={config.authorUnsplash} target="_blank"><Unsplash/></a> */}
             </div>
             <style jsx>{`

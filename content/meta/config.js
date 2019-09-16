@@ -15,6 +15,7 @@ module.exports = {
   authorLinkedin: "",
   authorCodeforces: "",
   authorYoutube: "",
+  authorFacebook: "https://www.facebook.com/s.benedyk"
 
   /* header text */
   headerTitle: "Ben Benedyk",

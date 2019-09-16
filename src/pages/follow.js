@@ -26,7 +26,7 @@ const FollowPage = props => {
           <React.Fragment>
             <Article theme={theme}>
               <header>
-                <Headline title="Follow" theme={theme} />
+                <Headline title="Obserwuj" theme={theme} />
               </header>
               <p>Subskrybuj by być na bieżąco.</p>
 
@@ -34,13 +34,6 @@ const FollowPage = props => {
                 <section className="subContainer">
                     <span className="subIcon"><FaRss/></span>
                     <span className="subText">RSS</span>
-                </section>
-              </a>
-
-              <a href={emailSubLink} target="_blank">
-                <section className="subContainer">
-                  <span className="subIcon"><FaPaperPlane/></span>
-                  <span className="subText">Email</span>
                 </section>
               </a>
 

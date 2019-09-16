@@ -138,7 +138,7 @@ class Contact extends React.Component {
                 <br/><br/>
                 <input
                   type="submit"
-                  value="Submit"
+                  value="Wyślij"
                   id="submitButton"
                   className="formItem"
                 />
