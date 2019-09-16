@@ -55,7 +55,7 @@ color:
       j: &color-gray-10 '#666' #'#3e3e3c'
       k: '#2b2826'
     black: '#000000'
-  
+
   brand:
     primary: &color-brand-primary '#E39E22' #'#07889B' #'#C0B283' #'#856084' #'#616247'
     primaryLight: '#f9ebd2'
@@ -72,7 +72,7 @@ color:
 font:
   # font options
   family:
-    initial: 'Arial, sans-serif'
+    initial: 'Impact, sans-serif'
     target: &font-family-target 'Open Sans'
   weight:
     standard: 400
@@ -154,4 +154,3 @@ header:
     default: 50px
     fixed: 50px;
     homepage: 50px;
-
