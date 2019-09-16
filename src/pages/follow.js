@@ -28,7 +28,7 @@ const FollowPage = props => {
               <header>
                 <Headline title="Follow" theme={theme} />
               </header>
-              <p>Hear about new posts by either RSS or Email.</p>
+              <p>Subskrybuj by być na bieżąco.</p>
 
               <a href="../rss.xml" target="_blank">
                 <section className="subContainer">
@@ -67,13 +67,13 @@ const FollowPage = props => {
                     }
                   }
                 }
-              
+
                 .subText {
                     text-align: right;
                     font-size: 20px;
                     color: ${theme.color.neutral.gray.j};
                 }
-                
+
                 .subIcon {
                     vertical-align: middle;
                     font-size: 40px;
