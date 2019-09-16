@@ -33,7 +33,7 @@ class Contact extends React.Component {
 
     const b = document.getElementById("submitButton")
     b.disabled = true
-    b.value = "Sending..."
+    b.value = "Wysyłanie..."
     b.style.transition = "200ms ease-in-out"
     b.style.backgroundColor = theme.color.brand.primaryLight
     b.style.borderColor = theme.color.brand.primaryLight
@@ -50,16 +50,16 @@ class Contact extends React.Component {
       .then(function(response) {
         console.log(response)
         if (response.result == 'success') {
-          console.log("Form submission success");
+          console.log("Wysyłanie udane!");
           navigate("/success");
         } else {
           console.error(response);
-          alert("Server responded with error! Sorry about this.")
+          alert("Jakiś błędzik, wybacz..")
         }
       })
       .catch(error => {
         console.error(error);
-        alert("Unable to deliver. Is your internet connection down?")
+        alert("Nie można wysłać, może ")
       });
   }
 

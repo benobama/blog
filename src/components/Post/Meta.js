@@ -7,7 +7,7 @@ import { FaUser, FaTag, FaCalendar } from "react-icons/fa/";
 const Meta = props => {
   const { author: authorName, tags, theme, lastEdit } = props;
   const prefix = props.prefix || currDate() /* Intent: get date placeholder for viewing drafts. */
-  
+
   //TODO: lastEdit
 
   return (
@@ -20,9 +20,9 @@ const Meta = props => {
         <FaUser size={18} /> {authorName}
       </span> */}
 
-      {tags && tags.map(tag => 
+      {tags && tags.map(tag =>
         <span key={tag}>
-          
+
           <Link to={`/tag/${tag.split(" ").join("-")}`}>
             <span>
               <FaTag size={18} />
@@ -42,6 +42,7 @@ const Meta = props => {
           background: transparent;
           color: ${theme.color.neutral.gray.j};
 
+
           :global(svg) {
             fill: ${theme.icon.color};
             margin: ${theme.space.inline.xs};
@@ -50,6 +51,8 @@ const Meta = props => {
             align-items: center;
             display: flex;
             text-transform: uppercase;
+            text-align: justify;
+            text-justify: inter-word;
             margin: ${theme.space.xs} ${theme.space.s} ${theme.space.xs} 0;
           }
         }
