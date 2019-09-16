@@ -100,7 +100,7 @@ class Contact extends React.Component {
                 data-netlify="true"
               >
                 <label className="formItem" >
-                  Name (optional):<br/>
+                  Imię (opcjonalnie):<br/>
                   <input
                     type="text"
                     name="name"
@@ -110,7 +110,7 @@ class Contact extends React.Component {
                 </label>
                 <br/><br/>
                 <label className="formItem" >
-                  E-mail (optional):<br/>
+                  E-mail (opcjonalnie):<br/>
                   <input
                     type="email"
                     name="emailReal"
@@ -127,7 +127,7 @@ class Contact extends React.Component {
                   style={{display: "none"}}
                 />
                 <label className="formItem" >
-                  Message:<br/>
+                  Wiadomość:<br/>
                   <textarea
                     name="message"
                     required={true}
@@ -140,10 +140,10 @@ class Contact extends React.Component {
                   type="submit"
                   value="Submit"
                   id="submitButton"
-                  className="formItem" 
+                  className="formItem"
                 />
                 {contactPostAddress === "" && (
-                  <h1>Undefined contactPostAddress!</h1>
+                  <h1>Halko, czegoś brakuje!</h1>
                 )}
               </form>
 

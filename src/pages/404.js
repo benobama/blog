@@ -12,7 +12,8 @@ const NotFoundPage = props => {
       <header>
         <Headline title="404" theme={theme} />
       </header>
-      <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+      <img src=images/gothic.jpg allign=center>
+      <p>Nic tu nie ma, niczego tu nie znajdziesz.</p>
     </Article>
   );
 };
