@@ -94,14 +94,14 @@ class Layout extends React.Component {
               padding: 0;
             }
             body {
-              font-family: 'Open Sans', 'Arial', 'sans-serif';
+              font-family: 'Josefin Sans', 'Arial', 'sans-serif';
               font-weight: 400;
             }
             h1,
             h2,
             h3 {
               font-weight: 600;
-              font-family: 'Open Sans', 'Arial', 'sans-serif';
+              font-family: 'Josefin Sans', 'Arial', 'sans-serif';
               line-height: 1.1;
               letter-spacing: -0.03em;
               margin: 0;
@@ -113,7 +113,7 @@ class Layout extends React.Component {
               margin: 0;
             }
             strong {
-              font-family: 'Open Sans', 'Arial', 'sans-serif';
+              font-family: 'Josefin Sans', 'Arial', 'sans-serif';
               font-weight: 600;
             }
             a {
