@@ -10,10 +10,10 @@ const Footer = props => {
     <React.Fragment>
       <footer className="footer">
         <a href="https://www.github.com/baobabKoodaa/blog/">
-          This blog is open source. Last updated {buildTime}.
+          Stworzone przy użyciu Gatsby. Ostatnia aktualizacja {buildTime}.
         </a>
-        
-      </footer> 
+
+      </footer>
 
       {/* --- STYLES --- */}
       <style jsx>{`
