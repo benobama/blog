@@ -1,9 +1,10 @@
 ---
-title: Wspominki Erpegowych Kampanii cz. 1: Brudne Missisipi
-tags: ["rpg", "wspominki", "detektyw"]
+title: Wspominki sesji - Brudne Missisipi
+tags: ["RPG", "wspominki", "detektyw"]
 cover: rust.jpg
 author: Ben
 ---
+
 
 Tekst napisany trzy lata temu, jednak do dziś wspominany nad wyraz ciepło.
 
