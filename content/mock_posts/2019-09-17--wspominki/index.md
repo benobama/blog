@@ -5,6 +5,8 @@ cover: rust.jpg
 author: Ben
 ---
 
+Tekst napisany trzy lata temu, jednak do dziś wspominany nad wyraz ciepło.
+
 ###Prawdziwy Detektyw
 
 <re-img src="rust.jpg" title="Rust Cohle"></re-img>
@@ -43,9 +45,7 @@ Nie lubię wysławiać się pochlebnie o moich sesjach, ale te były naprawdę n
 
 ###Napisy końcowe
 
-```
-Wystąpili: Marcin Boba Zielski, jako Frank L. Harris. Daniel R., jako Grant Morrow
+> Wystąpili: Marcin Boba Zielski, jako Frank L. Harris. Daniel R., jako Grant Morrow
 Ilość sesji: Pięć.
 Realia: Ameryka lata ’90.
 System: Savage Worlds, w praktyce jednak nieużywana. Gdybym znał wtedy FATE’a to pewnie on zostałby wybrany.
-```

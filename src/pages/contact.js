@@ -13,11 +13,11 @@ const ContactPage = props => {
     <React.Fragment>
         <Article theme={theme}>
           <header>
-            <Headline title="Contact" theme={theme} />
+            <Headline title="Kontakt" theme={theme} />
           </header>
           <Contact theme={theme} />
         </Article>
-      <Seo pageTitle="Contact"/>
+      <Seo pageTitle="Kontakt"/>
     </React.Fragment>
   );
 };

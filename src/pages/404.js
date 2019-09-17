@@ -12,7 +12,7 @@ const NotFoundPage = props => {
       <header>
         <Headline title="404" theme={theme} />
       </header>
-      <p>Nic tu nie ma, niczego tu nie znajdziesz.</p>
+      <p>Nic tu nie ma, niczego tu nie znajdziesz :(</p>
     </Article>
   );
 };
