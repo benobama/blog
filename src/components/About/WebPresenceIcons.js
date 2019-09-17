@@ -1,6 +1,6 @@
 import React from "react"
 import theme from "../../theme/theme.yaml";
-import { FaGithub, FaStackOverflow, FaLinkedin, FaYoutube, FaFacebook, } from 'react-icons/fa'
+import { FaGithub, FaStackOverflow, FaLinkedin, FaYoutube } from 'react-icons/fa'
 import config from "../../../content/meta/config";
 import Codeforces from "../../images/svg-icons/codeforces.svg";
 //import Unsplash from "../../images/svg-icons/unsplash.svg";
@@ -11,8 +11,7 @@ const WebPresenceIcons = () => {
             <div className="icons">
                 <a href={config.authorGithub} target="_blank"><FaGithub/></a>
                 <a href={config.authorYoutube} target="_blank"><FaYoutube/></a>
-                //{/* <a href={config.authorUnsplash} target="_blank"><Unsplash/></a> */}
-                <a href={config.authorFacebook} target="blank"><FaFacebook></a>
+                {/* <a href={config.authorUnsplash} target="_blank"><Unsplash/></a> */}
             </div>
             <style jsx>{`
             .wrapper {
