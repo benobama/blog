@@ -1,6 +1,6 @@
 ---
 title: Wspominki sesji - Brudne Missisipi
-tags: ["RPG", "wspominki", "detektyw"]
+tags: ["rpg", "wspominki", "detektyw"]
 cover: rust.jpg
 author: Ben
 ---
