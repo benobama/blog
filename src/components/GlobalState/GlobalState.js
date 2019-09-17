@@ -69,7 +69,7 @@ export class GlobalState extends React.Component {
           isLoading: false, // Allow triggering infinite scroll load
         }))
     }
-    
+
     loadMore = () => {
         this.setState({ isLoading: true, error: undefined })
         fetch(`${__PATH_PREFIX__}/paginationJson/index${this.state.cursor}.json`)

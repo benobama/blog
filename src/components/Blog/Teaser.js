@@ -166,7 +166,7 @@ const Teaser = props => {
             box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.03);
             margin-top: 20px;
             margin-bottom: 20px;
-            
+
             &:first-child {
               margin-top: 0;
             }

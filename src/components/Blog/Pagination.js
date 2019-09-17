@@ -76,7 +76,7 @@ const Pagination = props => {
                         margin-left: 10px !important;
                     }
                 }
-            
+
                 .pagination {
                     display: flex;
                     flex-direction: row;
