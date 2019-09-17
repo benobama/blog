@@ -93,7 +93,7 @@ class Contact extends React.Component {
           <>
             <div className="form">
               <form
-                name="contact"
+                name="Kontakt"
                 method="post"
                 action={contactPostAddress}
                 onSubmit={this.handleSubmit}
