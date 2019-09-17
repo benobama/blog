@@ -42,7 +42,7 @@ class Contact extends React.Component {
     fetch(this.contactPostAddress, {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: this.encode({ "form-name": "contact", ...this.state })
+      body: this.encode({ "form-name": "kontakt", ...this.state })
     })
       .then(function(rawResponse) {
         return rawResponse.json();

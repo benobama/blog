@@ -9,7 +9,7 @@ const Footer = props => {
   return (
     <React.Fragment>
       <footer className="footer">
-        <a href="https://github.com/benobama/blog">
+        <a href="https://github.com/benobama">
           Stworzone przy użyciu GatsbyJS. Ostatnia aktualizacja {buildTime}.
         </a>
 
